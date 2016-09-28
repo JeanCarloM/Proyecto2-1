@@ -11,7 +11,7 @@ def Factorial(n):
     if (n==0 or n==1):
         return 1
     else:
-        resultado = 0 #¿No se si esto sobra?
+        resultado = 0 
         resultado = n * Factorial(n-1)
         return resultado
         print (resultado)
